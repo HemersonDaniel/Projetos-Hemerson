@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Ative/desative regras específicas aqui (opcional).
+    avoid_print: true   # desencoraja o uso de print() no lugar de loggers
+    prefer_const_constructors: true
+    unnecessary_this: true
+    always_declare_return_types: true
